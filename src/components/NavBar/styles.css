@@ -1,0 +1,71 @@
+.header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+}
+
+.inicio {
+    display: flex;    
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    border-radius: 100%;   
+}
+
+.titulo-logo {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.a {
+    color: rgb(255, 255, 255);   
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.cart {
+    color: yellow;    
+    padding-left: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .header {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+    }
+    .a {
+        color: rgb(255, 255, 255);   
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+        font-size: 14px;
+       
+    }
+    
+
+    
+}
+

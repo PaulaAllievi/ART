@@ -1,0 +1,65 @@
+.itemdetail{
+    display: flex;
+    justify-content:center;
+    
+ }
+
+.img_itemdetail {
+    padding: 5%;
+}
+
+
+.itemdetail_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    border-radius: 8px;
+}
+
+.itemdetail_info h1 {
+    color: black;
+    padding: 0%;
+}
+
+.itemdetail_info h2 {
+    padding: 0%;
+    margin-top: 1%;
+}
+
+.itemdetail_info h3 {
+    margin-top: 5%;
+    color: rgb(61, 61, 61);
+    font-size: 22px;
+}
+
+.count {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkfinalizar {
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    background-color: rgb(54, 54, 54);
+    padding: 2%;
+    border-radius: 1px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:480px) {
+    .itemdetail{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        
+     }
+     .img_itemdetail {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}

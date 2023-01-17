@@ -1,0 +1,10 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(94, 94, 94);
+    padding: 18px 0px 18px 0px;
+    font-size: 26px;
+    font-weight: 400;
+   
+}

@@ -1,0 +1,24 @@
+.item_cart {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    padding: 1%;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid rgb(177, 177, 177);
+}
+
+.item_cart p {
+    color: black;
+}
+
+.item_cart img {
+    width: 20%;
+}
+
+
+.detalle_itemcart {
+    display: block;
+    justify-content: end;
+    margin-left: 5%;
+}
